@@ -84,12 +84,9 @@ class AuthenticationPlugin
 
             if (strlen($hash) == self::MD5_HASH_LENGTH) {
                 //PS 1.6 _COOKIE_KEY from config/settings.inc.php in Prestashop 1.6
-                #$passwordPSCOOKIEKEY = 'cookie_key_here';
-                $passwordSalt = $this->scopeConfig->getValue(self::XML_MD5_SALT, $storeScope);
+                $passwordPSCOOKIEKEY = 'cookie_key_here';
                 //Prestashop 1.6 cookie key md5 authentication
-                #$password = $this->encryptor->hash($passwordPSCOOKIEKEY . $password, \Magento\Framework\Encryption\Encryptor::HASH_VERSION_MD5);
-                //Normal MD5 old auth from magento1
-                $password = $this->encryptor->hash($passwordSalt . $password, \Magento\Framework\Encryption\Encryptor::HASH_VERSION_MD5);
+                $password = $this->encryptor->hash($passwordPSCOOKIEKEY . $password, \Magento\Framework\Encryption\Encryptor::HASH_VERSION_MD5);
 
                 $comparePasswordHash = Security::compareStrings($password, $hash);
 
