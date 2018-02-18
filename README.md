@@ -2,7 +2,9 @@
 
 Allows Customer to be logged in using legacy password mechanism (MD5).
 
-Especially useful when Customers are imported from another Ecommerce platform which uses MD5 algorithm.
+For use, if migrating from prestashop 1.6.x to magento 2.
+
+See [gists](https://gist.github.com/ajankuv) for sql queries on exporting the data from prestashop 1.6 for magent 2 export.
 
 ## Getting Started
 
