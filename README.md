@@ -32,4 +32,4 @@ Line 87 - Here you can add your PS 1.6 "COOKIE_KEY" from config/settings.inc.php
 
 Once you add your key in this should allow legacy md5 with ps1.6 support.
 
-NOTE: This version is just for ps1.6 migrations, please use the original from [here](https://github.com/sinisa86/Sinwashere_LegacyAuthentication/) by sinisa86
+NOTE: This version is just for ps1.6 migrations, please use the original from [here](https://github.com/sinisa86/Sinwashere_LegacyAuthentication/) by sinisa86 if you need just standard md5 auth.
