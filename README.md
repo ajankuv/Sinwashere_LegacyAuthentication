@@ -8,7 +8,7 @@ See [gists](https://gist.github.com/ajankuv) for sql queries on exporting the da
 
 ## Getting Started
 
-Download the extension as a [ZIP](https://github.com/ajankuv/Sinwashere_LegacyAuthentication/archive/master.zip) file from this repository, unzip the archive and upload the files to `/app/code/Sinwashere/LegacyAuthentication`.
+Download the extension as a [ZIP](https://github.com/ajankuv/Sinwashere_LegacyAuthentication/archive/master.zip) file from this repository, unzip the archive and upload the files to `/full-site-path-mage2/app/code/Sinwashere/LegacyAuthentication`.
 
 After uploading, run the following [Magento CLI](http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands.html) commands:
 
